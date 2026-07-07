@@ -239,12 +239,14 @@
                                     <option value="Makanan">Makanan</option>
                                     <option value="Lainnya">Lainnya</option>
                                 </select>
-                                <button id="clear-all" class="text-sm bg-rose-500/10 text-rose-400 hover:bg-rose-500/20 px-4 py-2 rounded-lg transition font-semibold border border-rose-500/20 cursor-pointer">
-                                    Clear
-                                </button>
-                                <button onclick="exportToCSV()" class="sm:hidden text-sm bg-slate-800 text-slate-300 px-4 py-2 rounded-lg border border-slate-700">
-                                    <i class="fa-solid fa-download"></i>
-                                </button>
+                                <div class="flex flex-col sm:flex-row gap-2 w-full sm:w-auto">
+                                    <button id="clear-all" class="text-sm bg-rose-500/10 text-rose-400 hover:bg-rose-500/20 px-4 py-2 rounded-lg transition font-semibold border border-rose-500/20 cursor-pointer">
+                                        Clear
+                                    </button>
+                                    <button onclick="exportToCSV()" class="sm:hidden text-sm bg-slate-800 text-slate-300 px-4 py-2 rounded-lg border border-slate-700">
+                                        <i class="fa-solid fa-download"></i>
+                                    </button>
+                                </div>
                             </div>
                         </div>
 
